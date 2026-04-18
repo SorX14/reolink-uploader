@@ -1,0 +1,5 @@
+.camera_credentials.json
+reolink-uploader.log
+.venv
+*.egg-info
+__pycache__

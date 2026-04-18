@@ -1,0 +1,15 @@
+[project]
+name = "reolink-uploader"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "requests",
+    "python-dotenv",
+    "black==26.3.1",
+]
+
+[tool.uv]
+package = true
+
+[project.scripts]
+reolink-uploader = "reolink_uploader:main"
